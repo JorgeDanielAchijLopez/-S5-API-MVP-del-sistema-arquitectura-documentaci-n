@@ -1,7 +1,4 @@
 
----
-
-
 ```markdown
 # System Brief – InvControl Pro
 
