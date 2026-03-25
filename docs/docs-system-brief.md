@@ -29,6 +29,8 @@ Los negocios pequeños suelen manejar inventarios y ventas de forma manual o con
 
 ## Diagrama de contexto
 
+# Diagrama del sistema
+
 ```mermaid
 flowchart LR
     User --> System["InvControl Pro"]
