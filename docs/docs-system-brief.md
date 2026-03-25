@@ -1,7 +1,6 @@
 
 ---
 
-# 📄 2. docs/system-brief.md
 
 ```markdown
 # System Brief – InvControl Pro
