@@ -1,5 +1,4 @@
 
-```markdown
 # System Brief – InvControl Pro
 
 ## Problema
@@ -27,9 +26,7 @@ Los negocios pequeños suelen manejar inventarios y ventas de forma manual o con
 - Aplicación móvil
 - E-commerce
 
-## Diagrama de contexto
-
-# Diagrama del sistema
+## Diagrama del sistema
 
 ```mermaid
 flowchart LR
