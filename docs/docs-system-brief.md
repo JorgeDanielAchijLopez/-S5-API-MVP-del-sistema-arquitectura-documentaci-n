@@ -34,7 +34,8 @@ Los negocios pequeños suelen manejar inventarios y ventas de forma manual o con
 
 ```mermaid
 flowchart LR
-    User --> System[InvControl Pro]
+    User --> System["InvControl Pro"]
     System --> Inventory
     System --> Sales
     System --> Reports
+```
