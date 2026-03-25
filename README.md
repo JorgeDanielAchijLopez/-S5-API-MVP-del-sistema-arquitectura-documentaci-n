@@ -1,29 +1,32 @@
-# -S5-API-MVP-del-sistema-arquitectura-documentaci-n
 # InvControl Pro API
 
-Sistema de gestión de inventario, ventas y control básico financiero.
+Sistema de gestión de inventario y ventas desarrollado como MVP técnico para pequeños y medianos negocios.
 
 ## Problema
 
-Muchos negocios pequeños gestionan inventario y ventas de forma manual, lo que genera errores, pérdida de control del stock y dificultad para conocer las ganancias reales.
+Muchos negocios gestionan su inventario y ventas de forma manual (Excel o papel), lo que genera errores en el control de stock, diferencias entre inventario físico y sistema, y falta de claridad sobre las ganancias.
 
 ## Solución
 
-InvControl Pro permite:
+InvControl Pro permite registrar productos, controlar inventario, registrar ventas y actualizar el stock automáticamente mediante una API REST.
 
-- Registrar productos
-- Controlar inventario
-- Registrar ventas
-- Actualizar stock automáticamente
+## Flujo principal
+
+Crear producto → Consultar producto → Registrar venta → Actualizar stock automáticamente
 
 ## Tecnologías
 
-- Python
-- FastAPI
-- Uvicorn
+Python, FastAPI, Uvicorn, OpenAPI
 
-## Cómo ejecutar
+## Ejecución local
+Instalar dependencias:
 
-```bash
 pip install fastapi uvicorn
+
+Ejecutar la API:
+
 python -m uvicorn main:app --reload
+
+Abrir en el navegador:
+
+http://127.0.0.1:8000/docs
